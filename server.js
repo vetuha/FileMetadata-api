@@ -1,7 +1,6 @@
 var express = require('express');
 var fs = require('fs');
 var path = require('path');
-var rmdir = require('rmdir');
 var multer  = require('multer');
 
 var upload = multer({ 
